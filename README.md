@@ -1,1 +1,153 @@
 # shell
+- eval built-in
+- exit built-in
+- export built-in
+- readonly built-in
+- return built-in
+- test/[ built-in
+- time built-in
+- trap built-in
+- unset built-in
+- chroot coreutils
+- env coreutils
+- sleep coreutils
+- expr coreutils
+- printenv coreutils
+- printf coreutils
+- seq coreutils
+- xargs findutils
+- watch procps-ng
+
+# 系统
+- date coreutils
+- uname coreutils
+- hostid coreutils
+- getent glibc
+- locale-gen glibc
+- uptime procps-ng
+- cal util-linux
+- dmesg util-linux
+- mkswap util-linux
+- swapon util-linux
+- swapoff util-linux
+
+# 进程
+- jobs built-in
+- bg/& built-in
+- fg built-in
+- nice coreutils
+- nohub coreutils
+- htop htop
+- free procps-ng
+- pkill procps-ng
+- pmap procps-ng
+- ps procps-ng
+- sysctl procps-ng
+- top procps-ng
+- vmstat procps-ng
+- killall psmisc
+- kill util-linux
+- renice util-linux
+
+# 用户/组
+- id coreutils
+- whoami coreutils
+- logname coreutils
+- pinky coreutils
+- users coreutils
+- w procps-ng
+- faillog shadow
+- groupadd/groupmod/groupdel shadow
+- pwck shadow
+- useradd/usermod/userdel shadow
+- passwd shadow
+- sudo sudo
+- visudo sudo
+- chsh util-linux
+- last util-linux
+- su util-linux
+
+# 磁盘
+- df coreutils
+- du coreutils
+- fdisk util-linux
+- mkfs util-linux
+- mount util-linux
+- umount util-linux
+
+# 文件/目录
+- cd built-in
+- pwd built-in
+- echo coreutils
+- mkdir coreutils
+- mktemp coreutils
+- basename coreutils
+- dirname coreutils
+- ls coreutils
+- ln coreutils
+- touch coreutils
+- tee coreutils
+- cp coreutils
+- dd coreutils
+- mv coreutils
+- rm coreutils
+- rmdir coreutils
+- chcon coreutils
+- chgrp coreutils
+- chown coreutils
+- chmod coreutils
+- base64 coreutils
+- basenc coreutils
+- b2sum coreutils
+- md5sum coreutils
+- truncate coreutils
+- find findutils
+- gzip/gunzip gzip
+- lsof lsof
+- shasum perl
+- tar tar
+- rename util-linux
+- whereis util-linux
+- zip/unzip zip
+
+# 文件内容
+- cat coreutils
+- head coreutils
+- tail coreutils
+- cut coreutils
+- wc coreutils
+- awk gawk
+- gawk gawk
+- egrep grep
+- fgrep grep
+- grep grep
+- less less
+- sed sed
+- vim vim
+- hexdump util-linux
+- more util-linux
+- uuidgen util-linux
+
+# 网络
+- firewalld firewalld
+- firewall-cmd firewalld
+- firewall-config firewalld
+- iptabls iptables-nft
+- arping iputils
+- ping iputils
+- tracepath iputils
+- bridge iproute2
+- ip iproute2
+- * ipvs
+- nmcli networkmanager
+- ncat nmap
+- nmap nmap
+- nping nmap
+- curl curl
+- wget wget
+- sftp openssh
+- ssh openssh
+- ssh-copy-id openssh
+- ssh-keygen openssh
+- rsync rsync
+- rfkill util-linux

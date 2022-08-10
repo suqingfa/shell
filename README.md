@@ -140,6 +140,8 @@
 - tail coreutils
 - cut coreutils
 - wc coreutils
+- uniq coreutils
+- sort coreutils
 - awk gawk
 - gawk gawk
 - egrep grep
@@ -175,3 +177,4 @@
 - ssh-keygen openssh
 - rsync rsync
 - rfkill util-linux
+- zmap zmap

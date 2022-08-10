@@ -8,6 +8,10 @@
 - time built-in
 - trap built-in
 - unset built-in
+- help/run-help built-in
+- type built-in
+- . built-in
+- source built-in
 - chroot coreutils
 - env coreutils
 - sleep coreutils
@@ -16,15 +20,29 @@
 - printf coreutils
 - seq coreutils
 - xargs findutils
+- man man-db
 - watch procps-ng
 
 # 系统
+- limit built-in
+- ulimit built-in
 - date coreutils
 - uname coreutils
 - hostid coreutils
 - getent glibc
 - locale-gen glibc
 - uptime procps-ng
+- journalctl systemd
+- loginctl systemd
+- networkctl systemd
+- systemctl systemd
+- bootctl systemd
+- busctl systemd
+- hostnamectl systemd
+- localectl systemd
+- resolvectl systemd
+- timedatectl systemd
+- sysctl procps-ng
 - cal util-linux
 - dmesg util-linux
 - mkswap util-linux
@@ -42,7 +60,6 @@
 - pkill procps-ng
 - pmap procps-ng
 - ps procps-ng
-- sysctl procps-ng
 - top procps-ng
 - vmstat procps-ng
 - killall psmisc
@@ -56,7 +73,10 @@
 - pinky coreutils
 - users coreutils
 - w procps-ng
+- login shadow
+- nologin shadow
 - faillog shadow
+- lastlog shadow
 - groupadd/groupmod/groupdel shadow
 - pwck shadow
 - useradd/usermod/userdel shadow
@@ -78,6 +98,8 @@
 # 文件/目录
 - cd built-in
 - pwd built-in
+- pushd built-in
+- popd built-in
 - echo coreutils
 - mkdir coreutils
 - mktemp coreutils
@@ -101,6 +123,8 @@
 - b2sum coreutils
 - md5sum coreutils
 - truncate coreutils
+- stat coreutils
+- file file
 - find findutils
 - gzip/gunzip gzip
 - lsof lsof

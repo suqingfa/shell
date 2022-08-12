@@ -1,4 +1,5 @@
 # shell
+
 - eval built-in
 - exit built-in
 - export built-in
@@ -10,8 +11,7 @@
 - unset built-in
 - help/run-help built-in
 - type built-in
-- . built-in
-- source built-in
+- source/. built-in
 - chroot coreutils
 - env coreutils
 - sleep coreutils
@@ -24,6 +24,7 @@
 - watch procps-ng
 
 # 系统
+
 - limit built-in
 - ulimit built-in
 - date coreutils
@@ -50,6 +51,7 @@
 - swapoff util-linux
 
 # 进程
+
 - jobs built-in
 - bg/& built-in
 - fg built-in
@@ -67,6 +69,7 @@
 - renice util-linux
 
 # 用户/组
+
 - id coreutils
 - whoami coreutils
 - logname coreutils
@@ -88,6 +91,7 @@
 - su util-linux
 
 # 磁盘
+
 - df coreutils
 - du coreutils
 - fdisk util-linux
@@ -96,6 +100,7 @@
 - umount util-linux
 
 # 文件/目录
+
 - cd built-in
 - pwd built-in
 - pushd built-in
@@ -135,6 +140,7 @@
 - zip/unzip zip
 
 # 文件内容
+
 - cat coreutils
 - head coreutils
 - tail coreutils
@@ -155,6 +161,7 @@
 - uuidgen util-linux
 
 # 网络
+
 - firewalld firewalld
 - firewall-cmd firewalld
 - firewall-config firewalld
@@ -164,7 +171,7 @@
 - tracepath iputils
 - bridge iproute2
 - ip iproute2
-- * ipvs
+- ipvs
 - nmcli networkmanager
 - ncat nmap
 - nmap nmap
@@ -178,3 +185,66 @@
 - rsync rsync
 - rfkill util-linux
 - zmap zmap
+
+# 
+
+## git
+
+### 配置
+
+- git config
+
+### 创建项目
+
+- git init
+- git clone
+
+### 快照
+
+- git add
+- git status
+- git diff
+- git commit
+- git notes
+- git restore
+- git reset
+- git rm
+- git mv
+
+### 分支
+
+- git branch
+- git checkout
+- git switch
+- git merge
+- git mergetool
+- git log
+- git stash
+- git tag
+- git worktree
+
+### 远程仓库
+
+- git fetch
+- git pull
+- git push
+- git remote
+- git submodule
+
+### 检查
+
+- git show
+- git log
+- git diff
+- git difftool
+- git range-diff
+- git shortlog
+- git describe
+
+### 补丁
+
+- git apply
+- git cherry-pick
+- git diff
+- git rebase
+- git revert

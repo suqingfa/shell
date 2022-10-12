@@ -17,10 +17,10 @@ alias ping='ping -c 10'
 
 
 if $(type pacman &> /dev/null); then
-	alias upgrade='sudo pacman -Suy --noconfirm'
-	alias install='sudo pacman -S'
-	alias remove='sudo pacman -Rs'
-	alias contents='pacman -Ql'
+	alias upgrade='sudo pacman --sync --sysupgrade --refresh --noconfirm'
+	alias install='sudo pacman --sync'
+	alias remove='sudo pacman --remove --recursive'
+	alias contents='pacman --query --list'
 fi
 
 if $(type apt-get &> /dev/null); then

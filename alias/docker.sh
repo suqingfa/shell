@@ -7,6 +7,7 @@ fi
 alias d='docker'
 
 alias deti='docker exec --tty --interactive'
+alias ds='docker stats'
 
 function docker_alias(){
   alias d${1}="docker $2"
@@ -18,6 +19,8 @@ function docker_alias(){
   if [[ $2 = 'container' ]]; then
     alias d${1}st="docker $2 start"
     alias d${1}sp="docker $2 stop"
+    alias d${1}l="docker $2 logs"
+    alias d${1}lf="docker $2 logs --follow"
   fi
 }
 

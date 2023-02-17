@@ -22,6 +22,11 @@ function docker_alias(){
     alias d${1}l="docker $2 logs"
     alias d${1}lf="docker $2 logs --follow --tail=50"
   fi
+
+  if [[ $2 = 'image' ]]; then
+    alias d${1}pr="docker $2 pull"
+    alias d${1}ps="docker $2 push"
+  fi
 }
 
 docker_alias 'c' 'container'

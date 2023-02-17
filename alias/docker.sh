@@ -20,7 +20,7 @@ function docker_alias(){
     alias d${1}st="docker $2 start"
     alias d${1}sp="docker $2 stop"
     alias d${1}l="docker $2 logs"
-    alias d${1}lf="docker $2 logs --follow"
+    alias d${1}lf="docker $2 logs --follow --tail=50"
   fi
 }
 

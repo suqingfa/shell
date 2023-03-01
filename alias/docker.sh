@@ -24,7 +24,7 @@ function docker_alias(){
   fi
 
   if [[ $2 = 'image' ]]; then
-    alias d${1}pr="docker $2 pull"
+    alias d${1}pl="docker $2 pull"
     alias d${1}ps="docker $2 push"
   fi
 }

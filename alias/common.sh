@@ -5,6 +5,8 @@ alias df='df -h'
 
 alias type='type -a'
 
+alias readelf='readelf --wide'
+
 alias ls='ls --color=auto'
 alias ll='ls -lh --color=auto'
 alias la='ls -lha --color=auto'
